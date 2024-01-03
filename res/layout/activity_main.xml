@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:configChanges="keyboardHidden|orientation"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/Image"
+        android:layout_width="307.0dip"
+        android:layout_height="350.0dip"
+        android:layout_marginLeft="49.0dip"
+        android:layout_marginRight="49.0dip"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
+    <SeekBar
+        android:id="@id/SeekerCompress"
+        android:layout_width="300.0dip"
+        android:layout_height="21.0dip"
+        android:layout_marginLeft="70.0dip"
+        android:layout_marginTop="56.0dip"
+        android:layout_marginRight="70.0dip"
+        android:progress="100"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <SeekBar
+        android:id="@id/SeekerSharper"
+        android:visibility="invisible"
+        android:layout_width="300.0dip"
+        android:layout_height="21.0dip"
+        android:layout_marginLeft="70.0dip"
+        android:layout_marginTop="82.0dip"
+        android:layout_marginRight="70.0dip"
+        android:progress="100"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <SeekBar
+        android:id="@id/SeekerScale"
+        android:layout_width="254.0dip"
+        android:layout_height="19.0dip"
+        android:layout_marginLeft="650.0dip"
+        android:layout_marginTop="150.0dip"
+        android:layout_marginRight="40.0dip"
+        android:progress="100"
+        android:rotation="270.0"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <SeekBar
+        android:id="@id/SeekerScaleVertical"
+        android:visibility="invisible"
+        android:layout_width="254.0dip"
+        android:layout_height="19.0dip"
+        android:layout_marginLeft="660.0dip"
+        android:layout_marginTop="150.0dip"
+        android:layout_marginRight="50.0dip"
+        android:progress="100"
+        android:rotation="270.0"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@id/BrowseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1.0dip"
+        android:text="Зашакалить..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:enabled="false"
+        android:id="@id/SaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1.0dip"
+        android:text="Сохранить шакализм"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <TextView
+        android:id="@id/JackalText"
+        android:layout_width="284.0dip"
+        android:layout_height="25.0dip"
+        android:layout_marginLeft="70.0dip"
+        android:layout_marginRight="70.0dip"
+        android:text="Опять сжимаешь, зыбучий шакал?"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="284.0dip"
+        android:layout_height="25.0dip"
+        android:layout_marginLeft="70.0dip"
+        android:layout_marginTop="47.0dip"
+        android:layout_marginRight="70.0dip"
+        android:text="Степень сжатия"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@id/SharpText"
+        android:visibility="invisible"
+        android:layout_width="284.0dip"
+        android:layout_height="25.0dip"
+        android:layout_marginLeft="70.0dip"
+        android:layout_marginTop="74.0dip"
+        android:layout_marginRight="70.0dip"
+        android:text="Резкость деда"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@id/JackalCompressText"
+        android:layout_width="284.0dip"
+        android:layout_height="25.0dip"
+        android:layout_marginLeft="670.0dip"
+        android:layout_marginTop="56.0dip"
+        android:layout_marginRight="70.0dip"
+        android:text="Зыбучесть шакалов"
+        android:rotation="270.0"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@id/HD8KLayout"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <CheckBox
+            android:id="@id/HD8KCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HD8K" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/AboutScreen"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/cat" />
+        <Button
+            android:id="@id/ExitAbout"
+            android:layout_width="187.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120.0dip"
+            android:layout_marginTop="300.0dip"
+            android:layout_marginRight="140.0dip"
+            android:text="Дальше сжимать!"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:textColor="@color/colorAbout"
+            android:layout_gravity="center"
+            android:id="@id/textViewHlink"
+            android:layout_width="372.0dip"
+            android:layout_height="455.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="100.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="@string/HyperlinkBroly"
+            android:shadowColor="@color/colorAccent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+    <Button
+        android:id="@id/AboutButton"
+        android:layout_width="36.0dip"
+        android:layout_height="40.0dip"
+        android:text="\?" />
+</android.support.constraint.ConstraintLayout>
